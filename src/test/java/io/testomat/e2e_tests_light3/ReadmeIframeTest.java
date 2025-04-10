@@ -22,7 +22,7 @@ public class ReadmeIframeTest extends BaseTest {
                 .clickOnEditReadme()
                 .editFirstLineInEditor("OLOLO")
                 .clickOnCancel()
-                .HaveEnteredText();
+                .HasEnteredText();
 
     }
 }

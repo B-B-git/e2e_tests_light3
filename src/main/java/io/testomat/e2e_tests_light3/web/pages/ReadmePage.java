@@ -36,7 +36,7 @@ public class ReadmePage {
         $("h2").shouldHave(Condition.text("Readme"));
         return this;
     }
-    public ReadmePage HaveEnteredText() {
+    public ReadmePage HasEnteredText() {
         $(".view-lines div").shouldHave(Condition.text("OLOLO"));
         return this;
     }
