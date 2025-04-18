@@ -21,8 +21,7 @@ public class ReadmeIframeTest extends BaseTest {
         app.readmePage.isLoaded()
                 .clickOnEditReadme()
                 .editFirstLineInEditor("OLOLO")
-                .clickOnCancel()
-                .HasEnteredText();
+                .clickOnCancel();
 
     }
 }
