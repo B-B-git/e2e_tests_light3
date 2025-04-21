@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light3;
+package io.testomat.e2e_tests_light3.selenide;
 
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeEach;

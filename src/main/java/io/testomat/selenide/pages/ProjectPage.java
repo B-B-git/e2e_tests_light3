@@ -1,7 +1,6 @@
-package io.testomat.e2e_tests_light3.web.pages;
+package io.testomat.selenide.pages;
 
 import com.codeborne.selenide.Selectors;
-import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.$;
 

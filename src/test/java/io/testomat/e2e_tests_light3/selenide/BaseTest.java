@@ -1,14 +1,9 @@
-package io.testomat.e2e_tests_light3;
+package io.testomat.e2e_tests_light3.selenide;
 
 import com.codeborne.selenide.Configuration;
 import io.github.cdimascio.dotenv.Dotenv;
-import io.testomat.e2e_tests_light3.common.Application;
-import io.testomat.e2e_tests_light3.web.pages.ProjectPage;
-import io.testomat.e2e_tests_light3.web.pages.ProjectsPage;
-import io.testomat.e2e_tests_light3.web.pages.SignInPage;
+import io.testomat.e2e_tests_light3.selenide.common.Application;
 import org.junit.jupiter.api.BeforeAll;
-
-import java.util.Objects;
 
 import static com.codeborne.selenide.Selenide.open;
 

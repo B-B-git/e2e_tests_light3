@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light3.web.pages;
+package io.testomat.selenide.pages;
 
 import com.codeborne.selenide.*;
 
