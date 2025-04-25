@@ -6,7 +6,8 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class ProjectPage {
 
-    public void IsLoaded(String targetProjectName) {}
+    public void IsLoaded(String targetProjectName) {
+    }
 
     public ProjectPage openReadme() {
         $(Selectors.byLinkText("Readme")).click();

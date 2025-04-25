@@ -1,6 +1,9 @@
 package io.testomat.selenide.pages;
 
-import com.codeborne.selenide.*;
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.CollectionCondition.size;
 import static com.codeborne.selenide.Condition.text;
@@ -11,16 +14,20 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class ProjectsPage {
 
-    private SelenideElement searchInput = $("#search");
+    private final SelenideElement searchInput = $("#search");
 
-    public void open() { Selenide.open(""); }
+    public void open() {
+        Selenide.open("");
+    }
 
     public ProjectsPage isLoaded() {
         searchInput.shouldBe(visible);
         return this;
     }
 
-    public void signInSuccess() {$("#container .common-flash-success").shouldBe(Condition.visible);}
+    public void signInSuccess() {
+        $("#container .common-flash-success").shouldBe(Condition.visible);
+    }
 
     public ProjectsPage searchForProject(String targetProjectName) {
         searchInput.setValue(targetProjectName);
