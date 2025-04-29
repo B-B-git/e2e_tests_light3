@@ -1,8 +1,8 @@
-package io.testomat.e2e_tests_light3.selenide;
+package io.testomat.e2e_tests_light3.web.selenide;
 
 import com.codeborne.selenide.Configuration;
 import io.github.cdimascio.dotenv.Dotenv;
-import io.testomat.e2e_tests_light3.selenide.common.Application;
+import io.testomat.e2e_tests_light3.web.selenide.common.Application;
 import org.junit.jupiter.api.BeforeAll;
 
 public class BaseTest {

@@ -1,6 +1,6 @@
-package io.testomat.e2e_tests_light3.playwright;
+package io.testomat.e2e_tests_light3.web.playwright;
 
-import io.testomat.e2e_tests_light3.playwright.common.PWExention;
+import io.testomat.e2e_tests_light3.web.playwright.common.PWExention;
 import io.testomat.pw.HomePage;
 import io.testomat.pw.ProjectPage;
 import io.testomat.pw.ProjectsPage;

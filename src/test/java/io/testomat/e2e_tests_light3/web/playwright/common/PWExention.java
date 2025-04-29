@@ -1,4 +1,4 @@
-package io.testomat.e2e_tests_light3.playwright.common;
+package io.testomat.e2e_tests_light3.web.playwright.common;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
